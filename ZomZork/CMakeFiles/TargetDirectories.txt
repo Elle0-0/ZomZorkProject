@@ -1,0 +1,9 @@
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/ZomZork.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/edit_cache.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/rebuild_cache.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/list_install_components.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/install.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/install/local.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/install/strip.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/ZomZork_autogen_timestamp_deps.dir
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/ZomZork_autogen.dir

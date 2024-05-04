@@ -1,0 +1,16 @@
+# ninja log v5
+4	2325	7365501782617921	ZomZork_autogen/timestamp	db15d616baba8d6b
+4	2325	7365501782617921	ZomZork_autogen/mocs_compilation.cpp	db15d616baba8d6b
+4	2325	7365501782617921	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/timestamp	db15d616baba8d6b
+4	2325	7365501782617921	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/mocs_compilation.cpp	db15d616baba8d6b
+2330	7621	7365501837984556	CMakeFiles/ZomZork.dir/ZomZork_autogen/mocs_compilation.cpp.obj	1742f25dc219731b
+2342	7683	7365501838566630	CMakeFiles/ZomZork.dir/mainwindow.cpp.obj	62502cdc44d07ea4
+2357	7748	7365501839133732	CMakeFiles/ZomZork.dir/main.cpp.obj	d67bc9e01511f08d
+7751	8595	7365501847662659	ZomZork.exe	b80cedf4f9296278
+30	419	7365502479448181	ZomZork_autogen/timestamp	db15d616baba8d6b
+30	419	7365502479448181	ZomZork_autogen/mocs_compilation.cpp	db15d616baba8d6b
+30	419	7365502479448181	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/timestamp	db15d616baba8d6b
+30	419	7365502479448181	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/mocs_compilation.cpp	db15d616baba8d6b
+462	6175	7365502536970724	CMakeFiles/ZomZork.dir/main.cpp.obj	d67bc9e01511f08d
+451	6487	7365502540119575	CMakeFiles/ZomZork.dir/mainwindow.cpp.obj	62502cdc44d07ea4
+6490	6895	7365502544077099	ZomZork.exe	b80cedf4f9296278
