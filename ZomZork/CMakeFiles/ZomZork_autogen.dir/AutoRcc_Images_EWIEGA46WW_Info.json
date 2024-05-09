@@ -7,7 +7,8 @@
 	"INCLUDE_DIR" : "C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Zom-Zork.jpg"
+		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Background_zomzork.png",
+		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Bed.png"
 	],
 	"LOCK_FILE" : "C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/ZomZork_autogen.dir/AutoRcc_Images_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

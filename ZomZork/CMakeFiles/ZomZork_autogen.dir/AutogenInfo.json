@@ -256,9 +256,21 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h",
+			"MU",
+			"EWIEGA46WW/moc_Entity.cpp",
+			null
+		],
+		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h",
+			"MU",
+			"EWIEGA46WW/moc_room.cpp",
 			null
 		]
 	],
@@ -334,12 +346,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/main.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.cpp",
 			"MU",
 			null
 		]

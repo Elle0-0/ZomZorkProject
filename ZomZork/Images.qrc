@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>Zom-Zork.jpg</file>
+        <file>Background_zomzork.png</file>
+        <file>Bed.png</file>
     </qresource>
 </RCC>

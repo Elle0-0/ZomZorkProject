@@ -73,6 +73,22 @@ build CMakeFiles/ZomZork.dir/mainwindow.cpp.obj: CXX_COMPILER__ZomZork_unscanned
   OBJECT_DIR = CMakeFiles\ZomZork.dir
   OBJECT_FILE_DIR = CMakeFiles\ZomZork.dir
 
+build CMakeFiles/ZomZork.dir/room.cpp.obj: CXX_COMPILER__ZomZork_unscanned_Debug C$:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.cpp || cmake_object_order_depends_target_ZomZork
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ZomZork.dir\room.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/include -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ZomZork.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZomZork.dir
+
+build CMakeFiles/ZomZork.dir/Entity.cpp.obj: CXX_COMPILER__ZomZork_unscanned_Debug C$:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.cpp || cmake_object_order_depends_target_ZomZork
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ZomZork.dir\Entity.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/include -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\ZomZork.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZomZork.dir
+
 build CMakeFiles/ZomZork.dir/ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp.obj: CXX_COMPILER__ZomZork_unscanned_Debug C$:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp || cmake_object_order_depends_target_ZomZork
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\ZomZork.dir\ZomZork_autogen\EWIEGA46WW\qrc_Images.cpp.obj.d
@@ -89,7 +105,7 @@ build CMakeFiles/ZomZork.dir/ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp.obj: CXX_
 #############################################
 # Link the executable ZomZork.exe
 
-build ZomZork.exe: CXX_EXECUTABLE_LINKER__ZomZork_Debug CMakeFiles/ZomZork.dir/ZomZork_autogen/mocs_compilation.cpp.obj CMakeFiles/ZomZork.dir/main.cpp.obj CMakeFiles/ZomZork.dir/mainwindow.cpp.obj CMakeFiles/ZomZork.dir/ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || ZomZork_autogen ZomZork_autogen_timestamp_deps
+build ZomZork.exe: CXX_EXECUTABLE_LINKER__ZomZork_Debug CMakeFiles/ZomZork.dir/ZomZork_autogen/mocs_compilation.cpp.obj CMakeFiles/ZomZork.dir/main.cpp.obj CMakeFiles/ZomZork.dir/mainwindow.cpp.obj CMakeFiles/ZomZork.dir/room.cpp.obj CMakeFiles/ZomZork.dir/Entity.cpp.obj CMakeFiles/ZomZork.dir/ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || ZomZork_autogen ZomZork_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -192,7 +208,7 @@ build ZomZork_autogen/timestamp ZomZork_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Custom command for ZomZork_autogen\EWIEGA46WW\qrc_Images.cpp
 
-build ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp | ${cmake_ninja_workdir}ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp: CUSTOM_COMMAND Images.qrc CMakeFiles/ZomZork_autogen.dir/AutoRcc_Images_EWIEGA46WW_Info.json Zom-Zork.jpg C$:/Qt/6.7.0/mingw_64/./bin/rcc.exe || ZomZork_autogen ZomZork_autogen_timestamp_deps
+build ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp | ${cmake_ninja_workdir}ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp: CUSTOM_COMMAND Images.qrc CMakeFiles/ZomZork_autogen.dir/AutoRcc_Images_EWIEGA46WW_Info.json Background_zomzork.png Bed.png C$:/Qt/6.7.0/mingw_64/./bin/rcc.exe || ZomZork_autogen ZomZork_autogen_timestamp_deps
   COMMAND = cmd.exe /C "cd /D C:\Users\andre\OneDrive\Documents\ISE\ZomZorkProject\ZomZork && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/ZomZork_autogen.dir/AutoRcc_Images_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for Images.qrc
   restat = 1
@@ -201,7 +217,7 @@ build ZomZork_autogen/EWIEGA46WW/qrc_Images.cpp | ${cmake_ninja_workdir}ZomZork_
 #############################################
 # Phony custom command for CMakeFiles\ZomZork_autogen_timestamp_deps
 
-build CMakeFiles/ZomZork_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ZomZork_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/ZomZork_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ZomZork_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a
 
 
 #############################################

@@ -526,4 +526,6 @@ ZomZork_autogen/timestamp: \
   main.cpp \
   mainwindow.cpp \
   mainwindow.h \
-  mainwindow.ui
+  mainwindow.ui \
+  room.cpp \
+  room.h

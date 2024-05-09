@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "room.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -18,14 +19,15 @@ public:
     ~MainWindow();
 
 private slots:
-
-    void on_pushButton_1_clicked();
-    void on_pushButton_2_clicked();
-    void on_pushButton_3_clicked();
-    void on_pushButton_4_clicked();
-    void on_pushButton_5_clicked();
+    void on_northButton_clicked();
+    void on_southButton_clicked();
+    void on_eastButton_clicked();
+    void on_westButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    void changeRoom(int index);
+    int currentRoomIndex;
+    room *currentRoom;
 };
 #endif // MAINWINDOW_H

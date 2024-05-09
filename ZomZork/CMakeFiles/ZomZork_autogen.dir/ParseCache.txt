@@ -352,6 +352,9 @@ C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/moc_predefs.h
  mdp:C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.h
+ mdp:C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/main.cpp
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.cpp
