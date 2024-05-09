@@ -1,9 +1,9 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "room.h"
-#include <QPixmap>
-#include <QMessageBox>
 #include <iostream>
+
+#include "Entity.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -14,22 +14,26 @@ MainWindow::MainWindow(QWidget *parent)
 
     setFixedSize(1190, 680);
 
-    room *room1, *room2, *room3, *room4, *room5;
+    room *bedroom, *bathroom, *kitchen, *balcony, *trainStatiom, *trainInside;
 
-    room1 = new room("room1", 0);
-    room2 = new room("room2", 1);
-    room3 = new room("room3", 2);
-    room4 = new room("room4", 3);
-    room5 = new room("room5", 4);
+    bedroom = new room("room1", 0);
+    bathroom = new room("room2", 1);
+    kitchen = new room("room3", 2);
+    balcony = new room("room4", 3);
+    trainStatiom = new room("room5", 4);
+    trainInside = new room("room6", 5);
 
-    room1->setExits(room2, room3, room4, room5);
-    room2->setExits(nullptr, room1, nullptr, nullptr);
-    room3->setExits(room1, nullptr, nullptr, nullptr);
-    room4->setExits(nullptr, nullptr, nullptr, room1);
-    room5->setExits(nullptr, nullptr, room1, nullptr);
+    bedroom->setExits(nullptr, balcony, kitchen, bathroom);
+    bathroom->setExits(nullptr, nullptr, bedroom, nullptr);
+    kitchen->setExits(nullptr, nullptr, nullptr, bedroom);
+    balcony->setExits(bedroom, trainStatiom, nullptr, nullptr);
+    trainStatiom->setExits(balcony, nullptr, nullptr, trainInside);
+    trainInside->setExits(nullptr, nullptr, trainStatiom, nullptr);
 
-    currentRoom = room1;
-    cout << currentRoom->getRoomIndex() << endl;
+    currentRoom = bedroom;
+
+    Entity entity("Object");
+    cout << entity.getName() << endl;
 
 }
 

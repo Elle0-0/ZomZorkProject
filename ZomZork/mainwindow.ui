@@ -22,28 +22,31 @@
      <rect>
       <x>170</x>
       <y>20</y>
-      <width>871</width>
-      <height>621</height>
+      <width>861</width>
+      <height>611</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="page_1">
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>80</y>
-        <width>121</width>
-        <height>51</height>
+        <x>0</x>
+        <y>0</y>
+        <width>861</width>
+        <height>621</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Bedroom.png);</string>
+      </property>
       <property name="text">
-       <string>Page 1</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
@@ -67,14 +70,17 @@
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>300</y>
-        <width>241</width>
-        <height>20</height>
+        <x>0</x>
+        <y>-1</y>
+        <width>861</width>
+        <height>621</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Bathroom.png)</string>
+      </property>
       <property name="text">
-       <string>Page 2</string>
+       <string/>
       </property>
      </widget>
     </widget>
@@ -82,14 +88,17 @@
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>300</y>
-        <width>131</width>
-        <height>20</height>
+        <x>0</x>
+        <y>-1</y>
+        <width>861</width>
+        <height>621</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Kitchen.png);</string>
+      </property>
       <property name="text">
-       <string>Page 3</string>
+       <string/>
       </property>
      </widget>
     </widget>
@@ -97,14 +106,17 @@
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>200</x>
-        <y>300</y>
-        <width>211</width>
-        <height>20</height>
+        <x>0</x>
+        <y>-1</y>
+        <width>861</width>
+        <height>621</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Balcony.png);</string>
+      </property>
       <property name="text">
-       <string>page 4</string>
+       <string/>
       </property>
      </widget>
     </widget>
@@ -112,14 +124,35 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>280</y>
-        <width>63</width>
-        <height>20</height>
+        <x>2</x>
+        <y>-1</y>
+        <width>861</width>
+        <height>621</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/TrainStation.png);</string>
+      </property>
       <property name="text">
-       <string>page 5</string>
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>-1</y>
+        <width>861</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/TrainInside.png)</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -229,16 +262,6 @@ background-color: rgba(0, 0, 0, 0);</string>
    <zorder>westButton</zorder>
    <zorder>southButton</zorder>
    <zorder>eastButton</zorder>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1190</width>
-     <height>25</height>
-    </rect>
-   </property>
   </widget>
  </widget>
  <resources/>

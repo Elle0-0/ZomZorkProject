@@ -262,6 +262,18 @@
 			null
 		],
 		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.h",
+			"MU",
+			"EWIEGA46WW/moc_Inventory.cpp",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.h",
+			"MU",
+			"EWIEGA46WW/moc_item.cpp",
+			null
+		],
+		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -347,6 +359,16 @@
 	[
 		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.cpp",
 			"MU",
 			null
 		],

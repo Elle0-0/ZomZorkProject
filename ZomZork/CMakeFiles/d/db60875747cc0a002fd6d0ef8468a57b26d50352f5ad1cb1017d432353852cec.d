@@ -521,8 +521,14 @@ ZomZork_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   CMakeLists.txt \
+  Entity.cpp \
+  Entity.h \
   Images.qrc \
+  Inventory.cpp \
+  Inventory.h \
   ZomZork_autogen/moc_predefs.h \
+  item.cpp \
+  item.h \
   main.cpp \
   mainwindow.cpp \
   mainwindow.h \

@@ -357,4 +357,10 @@ C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/main.cpp
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.cpp
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.cpp
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.cpp
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.cpp

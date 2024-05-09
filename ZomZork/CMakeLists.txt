@@ -26,6 +26,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Images.qrc
         room.h room.cpp
         Entity.h Entity.cpp
+        Inventory.h Inventory.cpp
+        item.h item.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

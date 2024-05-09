@@ -1,6 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>Background_zomzork.png</file>
-        <file>Bed.png</file>
+        <file>Balcony.png</file>
+        <file>Bathroom.png</file>
+        <file>Bedroom.png</file>
+        <file>TrainInside.png</file>
+        <file>TrainStation.png</file>
+        <file>Kitchen.png</file>
     </qresource>
 </RCC>
