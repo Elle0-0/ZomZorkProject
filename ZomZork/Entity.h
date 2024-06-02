@@ -9,11 +9,13 @@ class Entity
 private:
     string name;
     string description;
+    int index;
 public:
-    Entity(string name);
-    void setDescription(string description);
-    string getDescription();
-    string getName();
+    Entity(int index, string name);
+    virtual void setDescription(string description);
+    virtual string getDescription();
+    virtual string getName();
+    virtual int getIndex();
 };
 
 #endif // ENTITY_H

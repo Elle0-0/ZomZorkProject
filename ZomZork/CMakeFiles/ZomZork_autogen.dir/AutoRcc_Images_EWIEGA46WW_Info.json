@@ -10,10 +10,12 @@
 		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Bathroom.png",
 		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/TrainInside.png",
 		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Kitchen.png",
+		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/StartScreen.png",
 		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/TrainStation.png",
 		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Bedroom.png",
 		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Balcony.png",
-		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Background_zomzork.png"
+		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Background_zomzork.png",
+		"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Puzzle.png"
 	],
 	"LOCK_FILE" : "C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/ZomZork_autogen.dir/AutoRcc_Images_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

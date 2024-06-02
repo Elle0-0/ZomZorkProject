@@ -1,10 +1,19 @@
 #ifndef ITEM_H
 #define ITEM_H
 
-class Item
+#include <string>
+#include "Entity.h"
+
+using namespace std;
+class Item : public Entity
 {
 public:
-    Item();
+    Item(int index, string name);
+    bool operator==(const Item& other) const;
+
+private:
+    int index;
+    string name;
 };
 
 #endif // ITEM_H

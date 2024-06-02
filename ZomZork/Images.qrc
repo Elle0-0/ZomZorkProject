@@ -7,5 +7,7 @@
         <file>TrainInside.png</file>
         <file>TrainStation.png</file>
         <file>Kitchen.png</file>
+        <file>StartScreen.png</file>
+        <file>Puzzle.png</file>
     </qresource>
 </RCC>

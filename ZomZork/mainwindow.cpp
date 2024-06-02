@@ -1,15 +1,20 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "room.h"
 #include <iostream>
 
-#include "Entity.h"
+#include "Item.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    ui->startScreen->setVisible(true);
+    ui->puzzleWidget->setVisible(false);
+
+    ui->keyButton->setVisible(false);
+
     ui->stackedWidget->setCurrentIndex(0);
 
     setFixedSize(1190, 680);
@@ -32,8 +37,13 @@ MainWindow::MainWindow(QWidget *parent)
 
     currentRoom = bedroom;
 
-    Entity entity("Object");
-    cout << entity.getName() << endl;
+    Item *pills, *knife, *key;
+
+    pills = new Item(1, "pills");
+    knife = new Item(2, "knife");
+    key = new Item(3, "key");
+
+    allItems = {*pills, *knife, *key};
 
 }
 
@@ -42,7 +52,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::changeRoom(int index) {
+void MainWindow::changeRoom(int index)
+{
     room *nextRoom = currentRoom->getExit(index);
     if (nextRoom != nullptr) {
         currentRoom = nextRoom;
@@ -50,6 +61,16 @@ void MainWindow::changeRoom(int index) {
         ui->stackedWidget->setCurrentIndex(currentRoom->getRoomIndex());
     } else {
         qDebug() << "Error: No exit in that direction.";
+    }
+}
+
+void MainWindow::itemClicked(int index)
+{
+    for (int i = 0; i <allItems.size(); i++) {
+        if( allItems[i].getIndex() == index) {
+            userInventory.addItemToInventory(&allItems[i]);
+            cout << allItems[i].getName();
+        }
     }
 }
 
@@ -69,4 +90,63 @@ void MainWindow::on_westButton_clicked()
 {
     changeRoom(3);
 }
+
+
+void MainWindow::on_startGameButton_clicked()
+{
+    ui->startScreen->setVisible(false);
+}
+
+
+void MainWindow::on_pillsButton_clicked()
+{
+    itemClicked(1);
+    ui->pillsButton->setVisible(false);
+}
+void MainWindow::on_knifeButton_clicked()
+{
+    itemClicked(2);
+    ui->knifeButton->setVisible(false);
+}
+void MainWindow::on_keyButton_clicked()
+{
+    itemClicked(3);
+    ui->keyButton->setVisible(false);
+}
+
+
+void MainWindow::on_passwordButton_clicked()
+{
+    ui->puzzleWidget->setVisible(true);
+}
+
+
+void MainWindow::on_puzzleGoBackButton_clicked()
+{
+    ui->puzzleWidget->setVisible(false);
+}
+
+
+void MainWindow::on_PuzzleSubmitButton_clicked()
+{
+    QString answer = ui->lineEdit->text();
+    bool ok;
+    int ansToNum = answer.toInt(&ok);
+    if (ok) {
+        qDebug() << "converted successfully!";
+        if (ansToNum == 323) {
+            ui->label_10->setText("right answer you got a key!");
+            ui->keyButton->setVisible(true);
+        }
+        else {
+            ui->label_10->setText("wrong answer try again !(");
+        }
+
+    } else {
+        qDebug() << "failed !";
+        ui->label_10->setText("enter a 3 digit number!");
+    }
+
+}
+
 
