@@ -4,7 +4,6 @@
 
 #include "item.h"
 #include "RoomStory.h"
-#include "CustomExceptions.h"
 
 int globalAnswer = 323;
 
@@ -18,6 +17,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->puzzleWidget->setVisible(false);
 
     ui->keyButton->setVisible(false);
+
+    ui->keyLabel->setVisible(false);
+    ui->pillsLabel->setVisible(false);
+    ui->knifeLabel->setVisible(false);
 
     ui->stackedWidget->setCurrentIndex(0);
 
@@ -83,7 +86,7 @@ void MainWindow::changeRoom(int index)
         cout << currentRoom->getRoomIndex() << endl;
         ui->stackedWidget->setCurrentIndex(currentRoom->getRoomIndex());
     } else {
-        throw InvalidRoomException( "Error: No exit in that direction.");
+        qDebug() << "Error: No exit in that direction.";
     }
 }
 
@@ -141,16 +144,19 @@ void MainWindow::on_pillsButton_clicked()
 {
     itemClicked(1);
     ui->pillsButton->setVisible(false);
+    ui->pillsLabel->setVisible(true);
 }
 void MainWindow::on_knifeButton_clicked()
 {
     itemClicked(2);
     ui->knifeButton->setVisible(false);
+    ui->knifeLabel->setVisible(true);
 }
 void MainWindow::on_keyButton_clicked()
 {
     itemClicked(3);
     ui->keyButton->setVisible(false);
+    ui->keyLabel->setVisible(true);
 }
 
 
@@ -193,5 +199,11 @@ void MainWindow::on_PuzzleSubmitButton_clicked()
 void MainWindow::on_closeButton_clicked()
 {
     close();
+}
+
+
+void MainWindow::on_chrisModeButton_clicked()
+{
+    ui->startScreen->setVisible(false);
 }
 

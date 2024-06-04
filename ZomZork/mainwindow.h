@@ -43,15 +43,19 @@ private slots:
 
     void on_closeButton_clicked();
 
+    void on_chrisModeButton_clicked();
+
 private:
     Ui::MainWindow *ui;
-    void changeRoom(int index);
-    void itemClicked(int index);
     int currentRoomIndex;
     room *currentRoom;
     Inventory userInventory;
     vector<Entity*> allItems;
     vector<room*> allRooms;
+
+protected:
+    void changeRoom(int index);
+    void itemClicked(int index);
     void setStoryLine();
 };
 #endif // MAINWINDOW_H

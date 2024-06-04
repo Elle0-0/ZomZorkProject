@@ -374,12 +374,12 @@ C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.h
  mdp:C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.h
  mdp:C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.h
  mdp:C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h
-C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.cpp
- uic:./ui_mainwindow.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/RoomStory.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/main.cpp
-C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/mainwindow.cpp
+ uic:./ui_mainwindow.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h
+C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.cpp
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.cpp
 C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.h

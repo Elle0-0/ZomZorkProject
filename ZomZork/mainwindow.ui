@@ -30,7 +30,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page_1">
      <widget class="QLabel" name="label">
@@ -638,12 +638,63 @@ background-color: rgba(0, 0, 0, 0);</string>
      </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="knifeLabel">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>170</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/knife.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pillsLabel">
+    <property name="geometry">
+     <rect>
+      <x>1062</x>
+      <y>269</y>
+      <width>81</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pills.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="keyLabel">
+    <property name="geometry">
+     <rect>
+      <x>1042</x>
+      <y>379</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/key.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>Bg_pic</zorder>
    <zorder>stackedWidget</zorder>
    <zorder>northButton</zorder>
    <zorder>westButton</zorder>
    <zorder>southButton</zorder>
    <zorder>eastButton</zorder>
+   <zorder>knifeLabel</zorder>
+   <zorder>pillsLabel</zorder>
+   <zorder>keyLabel</zorder>
    <zorder>startScreen</zorder>
   </widget>
  </widget>

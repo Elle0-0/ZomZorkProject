@@ -12,6 +12,8 @@ public:
     Item(int index, string name, string description);
     bool operator==(const Item& other) const;
     void setWeight(int weight);
+
+    friend class Inventory;
 private:
     unsigned int weight : 6; //maximum weight of 63
 };

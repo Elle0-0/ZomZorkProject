@@ -9,5 +9,8 @@
         <file>Kitchen.png</file>
         <file>StartScreen.png</file>
         <file>Puzzle.png</file>
+        <file>key.png</file>
+        <file>knife.png</file>
+        <file>pills.png</file>
     </qresource>
 </RCC>
