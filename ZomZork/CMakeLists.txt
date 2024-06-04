@@ -28,6 +28,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Entity.h Entity.cpp
         Inventory.h Inventory.cpp
         item.h item.cpp
+        TemplateArray.h TemplateArray.cpp
+        Identity.h
+        Description.h
+        RoomStory.h RoomStory.cpp
+        CustomExceptions.h
+        PlayerStats.h PlayerStats.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

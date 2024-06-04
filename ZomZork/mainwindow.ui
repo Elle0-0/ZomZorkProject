@@ -30,7 +30,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="page_1">
      <widget class="QLabel" name="label">
@@ -50,22 +50,6 @@
       </property>
       <property name="text">
        <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>500</y>
-        <width>831</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="passwordButton">
@@ -173,17 +157,23 @@ background-color: rgba(0, 0, 0, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">border: none;
-background-color: rgba(0, 0, 0, 0);</string>
+background-color: rgba(0, 0, 0, 0);
+font-size: 35px;             
+qproperty-alignment: 'AlignCenter';</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_10">
        <property name="geometry">
         <rect>
-         <x>260</x>
-         <y>260</y>
-         <width>281</width>
-         <height>20</height>
+         <x>170</x>
+         <y>239</y>
+         <width>461</width>
+         <height>41</height>
         </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 35px;             
+qproperty-alignment: 'AlignCenter';</string>
        </property>
        <property name="text">
         <string/>
@@ -210,6 +200,28 @@ background-color: rgba(0, 0, 0, 0);</string>
        </property>
       </widget>
      </widget>
+     <widget class="QLabel" name="text_1">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>460</y>
+        <width>771</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 25px;
+font-weight:600;            
+qproperty-alignment: 'AlignCenter';</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>label</zorder>
+     <zorder>passwordButton</zorder>
+     <zorder>text_1</zorder>
+     <zorder>puzzleWidget</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QLabel" name="label_2">
@@ -243,6 +255,24 @@ background-color: rgba(0, 0, 0, 0);</string>
       <property name="styleSheet">
        <string notr="true">border: none;
 background-color: rgba(0, 0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="text_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>450</y>
+        <width>781</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 25px;
+font-weight:600;            
+qproperty-alignment: 'AlignCenter';</string>
       </property>
       <property name="text">
        <string/>
@@ -286,6 +316,27 @@ background-color: rgba(0, 0, 0, 0);</string>
        <string/>
       </property>
      </widget>
+     <widget class="QLabel" name="text_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>460</y>
+        <width>771</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 25px;
+font-weight:600;            
+qproperty-alignment: 'AlignCenter';</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_4">
      <widget class="QLabel" name="label_4">
@@ -299,6 +350,24 @@ background-color: rgba(0, 0, 0, 0);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border-image: url(:/Balcony.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="text_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>450</y>
+        <width>771</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 25px;
+font-weight:600;            
+qproperty-alignment: 'AlignCenter';</string>
       </property>
       <property name="text">
        <string/>
@@ -322,6 +391,27 @@ background-color: rgba(0, 0, 0, 0);</string>
        <string/>
       </property>
      </widget>
+     <widget class="QLabel" name="text_5">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>480</y>
+        <width>771</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 25px;
+font-weight:600;            
+qproperty-alignment: 'AlignCenter';</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_6">
      <widget class="QLabel" name="label_7">
@@ -340,7 +430,7 @@ background-color: rgba(0, 0, 0, 0);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="closeButton">
       <property name="geometry">
        <rect>
         <x>532</x>
@@ -358,6 +448,24 @@ background-color: rgba(0, 0, 0, 0);</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="text_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>500</y>
+        <width>861</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 25px;
+font-weight:600;            
+qproperty-alignment: 'AlignCenter';</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
       </property>
      </widget>
     </widget>
@@ -530,13 +638,13 @@ background-color: rgba(0, 0, 0, 0);</string>
      </property>
     </widget>
    </widget>
-   <zorder>startScreen</zorder>
    <zorder>Bg_pic</zorder>
    <zorder>stackedWidget</zorder>
    <zorder>northButton</zorder>
    <zorder>westButton</zorder>
    <zorder>southButton</zorder>
    <zorder>eastButton</zorder>
+   <zorder>startScreen</zorder>
   </widget>
  </widget>
  <resources/>

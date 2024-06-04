@@ -1,20 +1,19 @@
 #include "Entity.h"
 
-Entity::Entity(int index, string name) {
+Entity::Entity(int index, string name, string description) : index(index), description(description){
     this->name = name;
-    this->index = index;
 }
-string Entity::getName() {
+string Entity::getName() const{
     return name;
 }
-int Entity::getIndex() {
+int Entity::getIndex() const {
     return index;
 }
 
-void Entity::setDescription(string description) {
-    this->description = description;
+string Entity::getDescription() const{
+    return description;
 }
 
-string Entity::getDescription() {
-    return description;
+bool Entity::operator==(const Entity& other) const {
+    return index == other.index && name == other.name;
 }

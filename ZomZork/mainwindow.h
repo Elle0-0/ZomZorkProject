@@ -6,6 +6,7 @@
 #include "room.h"
 #include "Inventory.h"
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -40,6 +41,8 @@ private slots:
 
     void on_keyButton_clicked();
 
+    void on_closeButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void changeRoom(int index);
@@ -47,6 +50,8 @@ private:
     int currentRoomIndex;
     room *currentRoom;
     Inventory userInventory;
-    vector<Item> allItems;
+    vector<Entity*> allItems;
+    vector<room*> allRooms;
+    void setStoryLine();
 };
 #endif // MAINWINDOW_H

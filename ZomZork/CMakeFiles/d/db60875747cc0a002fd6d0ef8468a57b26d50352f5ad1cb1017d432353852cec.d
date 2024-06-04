@@ -535,11 +535,20 @@ ZomZork_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   CMakeLists.txt \
+  CustomExceptions.h \
+  Description.h \
   Entity.cpp \
   Entity.h \
+  Identity.h \
   Images.qrc \
   Inventory.cpp \
   Inventory.h \
+  PlayerStats.cpp \
+  PlayerStats.h \
+  RoomStory.cpp \
+  RoomStory.h \
+  TemplateArray.cpp \
+  TemplateArray.h \
   ZomZork_autogen/moc_predefs.h \
   item.cpp \
   item.h \

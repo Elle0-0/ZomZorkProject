@@ -363,7 +363,9 @@ C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/EWI
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Description.h \
   C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h \
+  C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Identity.h \
   C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.h \
   C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.h \
   C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/room.h

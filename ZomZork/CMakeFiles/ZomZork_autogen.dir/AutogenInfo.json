@@ -256,15 +256,51 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CustomExceptions.h",
+			"MU",
+			"EWIEGA46WW/moc_CustomExceptions.cpp",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Description.h",
+			"MU",
+			"EWIEGA46WW/moc_Description.cpp",
+			null
+		],
+		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h",
 			"MU",
 			"EWIEGA46WW/moc_Entity.cpp",
 			null
 		],
 		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Identity.h",
+			"MU",
+			"EWIEGA46WW/moc_Identity.cpp",
+			null
+		],
+		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.h",
 			"MU",
 			"EWIEGA46WW/moc_Inventory.cpp",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/PlayerStats.h",
+			"MU",
+			"EWIEGA46WW/moc_PlayerStats.cpp",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/RoomStory.h",
+			"MU",
+			"EWIEGA46WW/moc_RoomStory.cpp",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/TemplateArray.h",
+			"MU",
+			"EWIEGA46WW/moc_TemplateArray.cpp",
 			null
 		],
 		[
@@ -364,6 +400,21 @@
 		],
 		[
 			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/PlayerStats.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/RoomStory.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/TemplateArray.cpp",
 			"MU",
 			null
 		],

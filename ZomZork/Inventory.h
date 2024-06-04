@@ -8,11 +8,11 @@ class Inventory
 {
 public:
     Inventory();
-    void addItemToInventory(Item* item);
-    void removeItemFromInventory(Item* item);
+    void addItemToInventory(Entity* item);
+    void removeItemFromInventory(Entity* item);
 
 private:
-    Item* inventory[3];
+    Entity* inventory[3];
 };
 
 #endif // INVENTORY_H

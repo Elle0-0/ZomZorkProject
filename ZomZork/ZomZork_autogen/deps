@@ -534,11 +534,20 @@ ZomZork_autogen/timestamp: \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeFiles/3.27.7/CMakeSystem.cmake \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CMakeLists.txt \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/CustomExceptions.h \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Description.h \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.cpp \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Entity.h \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Identity.h \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Images.qrc \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.cpp \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/Inventory.h \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/PlayerStats.cpp \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/PlayerStats.h \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/RoomStory.cpp \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/RoomStory.h \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/TemplateArray.cpp \
+	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/TemplateArray.h \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/ZomZork_autogen/moc_predefs.h \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.cpp \
 	C:/Users/andre/OneDrive/Documents/ISE/ZomZorkProject/ZomZork/item.h \

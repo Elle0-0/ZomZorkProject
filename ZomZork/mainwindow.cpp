@@ -2,7 +2,11 @@
 #include "./ui_mainwindow.h"
 #include <iostream>
 
-#include "Item.h"
+#include "item.h"
+#include "RoomStory.h"
+#include "CustomExceptions.h"
+
+int globalAnswer = 323;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -21,6 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     room *bedroom, *bathroom, *kitchen, *balcony, *trainStatiom, *trainInside;
 
+
     bedroom = new room("room1", 0);
     bathroom = new room("room2", 1);
     kitchen = new room("room3", 2);
@@ -35,20 +40,38 @@ MainWindow::MainWindow(QWidget *parent)
     trainStatiom->setExits(balcony, nullptr, nullptr, trainInside);
     trainInside->setExits(nullptr, nullptr, trainStatiom, nullptr);
 
+
     currentRoom = bedroom;
 
-    Item *pills, *knife, *key;
+    allRooms.push_back(bedroom);
+    allRooms.push_back(bathroom);
+    allRooms.push_back(kitchen);
+    allRooms.push_back(balcony);
+    allRooms.push_back(trainStatiom);
+    allRooms.push_back(trainInside);
 
-    pills = new Item(1, "pills");
-    knife = new Item(2, "knife");
-    key = new Item(3, "key");
+    Item *pills = new Item(1, "pills", "weird looking pills on the floor");
+    Item *knife = new Item(2, "knife", "might be usefull later?");
+    Item *key = new Item(3, "key", "the key to the balcony");
 
-    allItems = {*pills, *knife, *key};
+    // use of bit structure
+    key->setWeight(34);
 
+    allItems.push_back(pills);
+    allItems.push_back(knife);
+    allItems.push_back(key);
+
+    setStoryLine();
 }
 
 MainWindow::~MainWindow()
 {
+    for (Entity* item : allItems) {
+        delete item;
+    }
+    for (room* rooms : allRooms) {
+        delete rooms;
+    }
     delete ui;
 }
 
@@ -60,19 +83,35 @@ void MainWindow::changeRoom(int index)
         cout << currentRoom->getRoomIndex() << endl;
         ui->stackedWidget->setCurrentIndex(currentRoom->getRoomIndex());
     } else {
-        qDebug() << "Error: No exit in that direction.";
+        throw InvalidRoomException( "Error: No exit in that direction.");
     }
 }
 
 void MainWindow::itemClicked(int index)
 {
-    for (int i = 0; i <allItems.size(); i++) {
-        if( allItems[i].getIndex() == index) {
-            userInventory.addItemToInventory(&allItems[i]);
-            cout << allItems[i].getName();
+    for (int i = 0; i < allItems.size(); i++) {
+        if( allItems[i]->getIndex() == index) {
+            userInventory.addItemToInventory(allItems[i]);
+            cout << allItems[i]->getName();
         }
     }
 }
+
+void MainWindow::setStoryLine() {
+    QString text1 = QString::fromStdString(storyline::bedroom::getText());
+    ui->text_1->setText(text1);
+    QString text2 = QString::fromStdString(storyline::bathroom::getText());
+    ui->text_2->setText(text2);
+    QString text3 = QString::fromStdString(storyline::kitchen::getText());
+    ui->text_3->setText(text3);
+    QString text4 = QString::fromStdString(storyline::balcony::getText());
+    ui->text_4->setText(text4);
+    QString text5 = QString::fromStdString(storyline::trainStation::getText());
+    ui->text_5->setText(text5);
+    QString text6 = QString::fromStdString(storyline::insideTrain::getText());
+    ui->text_6->setText(text6);
+}
+
 
 void MainWindow::on_northButton_clicked()
 {
@@ -134,9 +173,10 @@ void MainWindow::on_PuzzleSubmitButton_clicked()
     int ansToNum = answer.toInt(&ok);
     if (ok) {
         qDebug() << "converted successfully!";
-        if (ansToNum == 323) {
+        if (ansToNum == globalAnswer) {
             ui->label_10->setText("right answer you got a key!");
             ui->keyButton->setVisible(true);
+            ui->PuzzleSubmitButton->setVisible(false);
         }
         else {
             ui->label_10->setText("wrong answer try again !(");
@@ -146,7 +186,12 @@ void MainWindow::on_PuzzleSubmitButton_clicked()
         qDebug() << "failed !";
         ui->label_10->setText("enter a 3 digit number!");
     }
-
 }
 
+
+
+void MainWindow::on_closeButton_clicked()
+{
+    close();
+}
 

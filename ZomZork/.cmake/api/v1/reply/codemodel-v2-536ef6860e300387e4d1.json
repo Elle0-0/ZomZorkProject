@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-0ca39cc19826ad3de6be.json",
+					"jsonFile" : "directory-.-Debug-7dbd02d2fa313858a265.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZomZork::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZomZork-Debug-7b11f498049f64e11906.json",
+					"jsonFile" : "target-ZomZork-Debug-2888a1da9d990afd6237.json",
 					"name" : "ZomZork",
 					"projectIndex" : 0
 				},

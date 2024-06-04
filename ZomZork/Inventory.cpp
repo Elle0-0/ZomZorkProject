@@ -6,20 +6,26 @@ Inventory::Inventory() {
     }
 }
 
-void Inventory::addItemToInventory(Item* item) {
-    if (inventory[0] == nullptr)
-        inventory[0] = item;
-    if (inventory[1] == nullptr)
-        inventory[1] = item;
-    if (inventory[2] == nullptr)
-        inventory[2] = item;
+void Inventory::addItemToInventory(Entity* item) {
+    for (int i = 0; i < 3; i++) {
+        if (inventory[i] == nullptr) {
+            inventory[i] = item;
+            break;
+        }
+    }
 }
 
-void Inventory::removeItemFromInventory(Item* item) {
+void Inventory::removeItemFromInventory(Entity* item) {
     for (int i = 0; i < 3; ++i) {
         if (inventory[i] != nullptr && *inventory[i] == *item) {
             inventory[i] = nullptr;
             break;
         }
+    }
+}
+
+void Inventory::addWeight(Item object) {
+    if (object.weight != 0) {
+        inventoryWeight += object.weight;
     }
 }
